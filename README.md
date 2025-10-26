@@ -1,1 +1,0 @@
-# anatoliybannikov.github.io
