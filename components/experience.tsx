@@ -28,28 +28,28 @@ export default function Experience() {
 
   const experiences = [
     {
-      title: "Senior RPA Developer",
-      company: "Tech Solutions Inc.",
-      period: "2022 - Present",
+      title: "AI / RPA Lead Engineer",
+      company: "Zentist - USA",
+      period: "02/2022 - Current",
       description:
-        "Leading RPA initiatives and developing Python-based automation solutions. Reduced manual processing time by 70% through intelligent automation workflows.",
-      technologies: ["Python", "UiPath", "Selenium", "PostgreSQL"],
+        "Leading RPA department with 100+ UiPath bots processing tens of thousands of insurance documents daily from 30,000+ accounts. Built custom Python RPA framework with Playwright, developed FastAPI + PostgreSQL + Vue/Quasar web service for bot management. Created agentic bots with LangChain and BrowserUse. Processed 8+ million files over 3 years. Leading team of 5 engineers.",
+      technologies: ["Python", "UiPath", "Playwright", "FastAPI", "PostgreSQL", "Vue.js", "LangChain", "BrowserUse", "Kubernetes", "AWS"],
     },
     {
-      title: "Python Developer",
-      company: "Digital Innovations Ltd.",
-      period: "2020 - 2022",
+      title: "Intelligent Automation Manager / RPA Lead",
+      company: "KPMG Russia & CIS",
+      period: "01/2019 - 04/2022",
       description:
-        "Developed scalable backend systems and automation scripts. Implemented data processing pipelines handling millions of records daily.",
-      technologies: ["Python", "Django", "FastAPI", "MongoDB"],
+        "Led team of 5 analysts and developers implementing LegalTech solutions and RPA for clients from banking and retail sectors. Implemented Case.pro LegalTech product for top-5 retailer, developed 5 RPA bots for top-10 bank including complex request processing and document automation. Created 8 chatbots handling 300k+ employee inquiries with automatic routing. Built comprehensive documentation following corporate standards.",
+      technologies: ["Python", "UiPath", "Case.pro", "LegalTech", "VBA", "Telegram API", "Scrum", "Agile"],
     },
     {
-      title: "Junior Software Developer",
-      company: "StartUp Ventures",
-      period: "2018 - 2020",
+      title: "RPA Developer / Business Analyst",
+      company: "Fortum",
+      period: "01/2017 - 02/2019",
       description:
-        "Built web applications and automation tools. Contributed to multiple projects from conception to deployment.",
-      technologies: ["Python", "Flask", "JavaScript", "MySQL"],
+        "Analyzed 200+ business processes in HR, finance, and SAP departments, developed 8 RPA solutions on BluePrism for international energy company. Built reusable component library, migrated solutions to production infrastructure. Reduced manual effort by 5 FTE, improved processing time by 80%, achieved 99% SLA uptime.",
+      technologies: ["Python", "BluePrism", "RPA", "SAP", "VB", "Agile"],
     },
   ]
 
@@ -76,11 +76,10 @@ export default function Experience() {
               {experiences.map((exp, index) => (
                 <div
                   key={index}
-                  className={`relative transition-all duration-1000 ${
-                    isVisible
+                  className={`relative transition-all duration-1000 ${isVisible
                       ? "opacity-100 translate-x-0"
                       : `opacity-0 ${index % 2 === 0 ? "-translate-x-10" : "translate-x-10"}`
-                  }`}
+                    }`}
                   style={{ transitionDelay: `${index * 200}ms` }}
                 >
                   <div className={`md:flex md:gap-8 ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"}`}>

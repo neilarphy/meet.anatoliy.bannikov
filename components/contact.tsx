@@ -30,26 +30,26 @@ export default function Contact() {
     {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com/yourusername",
-      handle: "@yourusername",
+      url: "https://github.com/anatbannikov",
+      handle: "@anatbannikov",
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      url: "https://linkedin.com/in/yourusername",
-      handle: "/in/yourusername",
+      url: "https://www.linkedin.com/in/anatoliybannikov/",
+      handle: "/in/anatoliybannikov",
     },
     {
       name: "Email",
       icon: Mail,
-      url: "mailto:your.email@example.com",
-      handle: "your.email@example.com",
+      url: "mailto:anatbann@gmail.com",
+      handle: "anatbann@gmail.com",
     },
     {
-      name: "Twitter",
-      icon: Twitter,
-      url: "https://twitter.com/yourusername",
-      handle: "@yourusername",
+      name: "Phone",
+      icon: Mail,
+      url: "tel:+79090760001",
+      handle: "+7 909 076 0001",
     },
   ]
 
@@ -75,9 +75,8 @@ export default function Contact() {
             {socialLinks.map((link, index) => (
               <Card
                 key={index}
-                className={`p-6 bg-card/50 backdrop-blur border-border hover:border-primary/40 transition-all duration-500 hover:scale-105 ${
-                  isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-                }`}
+                className={`p-6 bg-card/50 backdrop-blur border-border hover:border-primary/40 transition-all duration-500 hover:scale-105 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                  }`}
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
                 <a href={link.url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
@@ -101,15 +100,14 @@ export default function Contact() {
             <Card className="p-8 bg-card/50 backdrop-blur border-primary/20">
               <h3 className="text-2xl font-bold mb-4">Ready to start a project?</h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Whether you need RPA automation, Python development, or ML/AI solutions, I'm here to help bring your
-                ideas to life.
+                Whether you need AI/RPA automation, intelligent automation solutions, custom Python frameworks, or agentic RPA development, I'm here to help bring your ideas to life.
               </p>
               <Button
                 size="lg"
                 className="bg-primary text-primary-foreground hover:bg-primary/90 animate-glow font-mono"
                 asChild
               >
-                <a href="mailto:your.email@example.com">
+                <a href="mailto:anatbann@gmail.com?subject=Inquiry from portfolio">
                   <Mail className="w-5 h-5 mr-2" />
                   Send Me an Email
                 </a>

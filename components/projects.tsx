@@ -107,9 +107,8 @@ export default function Projects() {
             {projects.map((project, index) => (
               <Card
                 key={index}
-                className={`p-6 bg-card/50 backdrop-blur border-border hover:border-primary/40 transition-all duration-500 hover:scale-105 flex flex-col ${
-                  isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-                }`}
+                className={`p-6 bg-card/50 backdrop-blur border-border hover:border-primary/40 transition-all duration-500 hover:scale-105 flex flex-col ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                  }`}
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
                 <div className="flex items-start justify-between mb-4">
@@ -164,7 +163,7 @@ export default function Projects() {
               className="border-primary text-primary hover:bg-primary/10 font-mono bg-transparent"
               asChild
             >
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/anatbannikov" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5 mr-2" />
                 View All Projects on GitHub
               </a>

@@ -1,6 +1,6 @@
-# Animated CV Website
+# Anatoliy Bannikov - Portfolio Website
 
-A stunning animated portfolio/CV website built with Next.js and deployed on GitHub Pages.
+A stunning animated portfolio/CV website for Anatoliy Bannikov, AI/RPA Lead Engineer at Zentist. Built with Next.js and deployed on GitHub Pages.
 
 ## Features
 
@@ -10,6 +10,12 @@ A stunning animated portfolio/CV website built with Next.js and deployed on GitH
 - 📱 Fully responsive design
 - 🌙 Dark mode optimized
 - 🚀 Static site optimized for GitHub Pages
+
+## About Anatoliy
+
+AI/RPA Lead Engineer with 7+ years of experience in intelligent automation. Currently leading RPA department at Zentist (USA), managing 100+ RPA bots processing tens of thousands of insurance documents daily. Specializes in Python, UiPath, LangChain, Playwright, and custom RPA frameworks. Has processed over 8 million files in production automation.
+
+Currently pursuing a Master's degree in Artificial Intelligence at ITMO AI Talent Hub and additional education as an LLM Engineer to further enhance expertise in AI and large language models.
 
 ## Local Development
 
@@ -49,21 +55,26 @@ npm run build
 
 ## Customization
 
-### Update Your Information
+### Current Information
 
-Edit the following components to add your personal information:
+This portfolio has been customized with Anatoliy Bannikov's professional information:
 
-- `components/hero.tsx` - Your name and title
+- Personal information and contact details
+- Work experience at Zentist, KPMG, and Fortum
+- Skills in AI/RPA, Python, Automation, and more
+- Certifications and education from Nazarbayev University
+
+### Update Information
+
+Edit the following components to update information:
+
+- `components/hero.tsx` - Name and title
 - `components/about.tsx` - About section
-- `components/skills.tsx` - Your skills
+- `components/skills.tsx` - Skills and technologies
 - `components/experience.tsx` - Work experience
-- `components/projects.tsx` - GitHub projects (update username)
-- `components/certifications.tsx` - Your certifications
+- `components/projects.tsx` - GitHub projects
+- `components/certifications.tsx` - Certifications
 - `components/contact.tsx` - Contact information
-
-### GitHub Projects Integration
-
-In `components/projects.tsx`, replace `'your-github-username'` with your actual GitHub username to automatically fetch your repositories.
 
 ## Tech Stack
 

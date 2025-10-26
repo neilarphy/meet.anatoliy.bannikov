@@ -6,7 +6,7 @@ import { Github, Linkedin, Mail, ChevronDown } from "lucide-react"
 
 export default function Hero() {
   const [text, setText] = useState("")
-  const fullText = "Python Developer | RPA & ML/AI Specialist"
+  const fullText = "AI / RPA Lead Engineer"
   const [showCursor, setShowCursor] = useState(true)
 
   useEffect(() => {
@@ -55,12 +55,15 @@ export default function Hero() {
             style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}
           >
             <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance">
-              <span className="text-foreground">I'm a </span>
-              <span className="text-primary font-mono">
-                {text}
-                {showCursor && <span className="animate-pulse-glow">|</span>}
-              </span>
+              <span className="text-foreground">I'm </span>
+              <span className="text-primary font-mono">Anatoliy Bannikov</span>
             </h1>
+            <div className="flex justify-center">
+              <h2 className="text-2xl md:text-3xl font-medium text-muted-foreground font-mono">
+                <span className="text-primary">{text}</span>
+                {showCursor && <span className="animate-pulse-glow text-primary">|</span>}
+              </h2>
+            </div>
           </div>
 
           {/* Description */}
@@ -69,8 +72,7 @@ export default function Hero() {
             style={{ animationDelay: "0.6s", animationFillMode: "forwards" }}
           >
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed text-pretty">
-              Automating workflows with Python and RPA, while expanding into Machine Learning and AI development.
-              Building intelligent solutions that bridge automation and artificial intelligence.
+              Engineer and team lead in intelligent automation (AI/RPA) with production experience. Leading 100+ RPA bots processing tens of thousands of documents daily. Building intelligent agentic solutions with LangChain, BrowserUse, and custom Python frameworks.
             </p>
           </div>
 
@@ -79,15 +81,16 @@ export default function Hero() {
             className="flex flex-wrap items-center justify-center gap-4 animate-fade-in-up opacity-0"
             style={{ animationDelay: "0.8s", animationFillMode: "forwards" }}
           >
-            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 animate-glow font-mono">
-              View My Work
+            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 animate-glow font-mono" onClick={scrollToAbout}>
+              Learn More About Me
             </Button>
             <Button
               size="lg"
               variant="outline"
               className="border-primary text-primary hover:bg-primary/10 font-mono bg-transparent"
+              onClick={() => window.open('mailto:anatbann@gmail.com?subject=Inquiry from portfolio', '_blank')}
             >
-              Download CV
+              Get In Touch
             </Button>
           </div>
 
@@ -96,14 +99,20 @@ export default function Hero() {
             className="flex items-center justify-center gap-4 animate-fade-in-up opacity-0"
             style={{ animationDelay: "1s", animationFillMode: "forwards" }}
           >
-            <Button size="icon" variant="ghost" className="text-muted-foreground hover:text-primary transition-colors">
-              <Github className="w-6 h-6" />
+            <Button size="icon" variant="ghost" className="text-muted-foreground hover:text-primary transition-colors" asChild>
+              <a href="https://github.com/anatbannikov" target="_blank" rel="noopener noreferrer">
+                <Github className="w-6 h-6" />
+              </a>
             </Button>
-            <Button size="icon" variant="ghost" className="text-muted-foreground hover:text-primary transition-colors">
-              <Linkedin className="w-6 h-6" />
+            <Button size="icon" variant="ghost" className="text-muted-foreground hover:text-primary transition-colors" asChild>
+              <a href="https://www.linkedin.com/in/anatoliybannikov/" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="w-6 h-6" />
+              </a>
             </Button>
-            <Button size="icon" variant="ghost" className="text-muted-foreground hover:text-primary transition-colors">
-              <Mail className="w-6 h-6" />
+            <Button size="icon" variant="ghost" className="text-muted-foreground hover:text-primary transition-colors" asChild>
+              <a href="mailto:anatbann@gmail.com">
+                <Mail className="w-6 h-6" />
+              </a>
             </Button>
           </div>
 

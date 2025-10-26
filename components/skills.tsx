@@ -28,27 +28,35 @@ export default function Skills() {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["Python", "JavaScript", "TypeScript", "SQL", "Bash"],
+      skills: ["Python", "JavaScript", "SQL", "VB"],
     },
     {
       title: "RPA & Automation",
-      skills: ["UiPath", "Automation Anywhere", "Blue Prism", "Selenium", "Beautiful Soup", "Scrapy"],
+      skills: ["UiPath", "Blue Prism", "Playwright", "Agentic RPA", "LangChain", "BrowserUse", "ABBYY FlexiCapture"],
     },
     {
-      title: "ML/AI & Data Science",
-      skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "Keras", "OpenCV"],
+      title: "Backend & Frameworks",
+      skills: ["FastAPI", "Flask", "SQLAlchemy", "REST APIs", "Airflow"],
     },
     {
-      title: "Web Development",
-      skills: ["FastAPI", "Flask", "Django", "React", "Next.js", "REST APIs"],
+      title: "Frontend",
+      skills: ["Vue.js", "Quasar", "JavaScript", "HTML", "CSS"],
     },
     {
-      title: "Databases",
-      skills: ["PostgreSQL", "MongoDB", "MySQL", "Redis", "SQLite"],
+      title: "Databases & Storage",
+      skills: ["PostgreSQL", "SQL", "AWS S3", "AWS EC2"],
     },
     {
-      title: "DevOps & Tools",
-      skills: ["Git", "Docker", "CI/CD", "Linux", "AWS", "Azure"],
+      title: "MLOps & Data",
+      skills: ["DVC", "MLflow", "Data Engineering", "ETL"],
+    },
+    {
+      title: "DevOps & Infrastructure",
+      skills: ["Docker", "Kubernetes", "CI/CD", "Git", "Linux", "AWS"],
+    },
+    {
+      title: "Methodologies",
+      skills: ["Agile", "Scrum", "Team Leadership", "Technical Documentation", "Analytics"],
     },
   ]
 
@@ -70,9 +78,8 @@ export default function Skills() {
             {skillCategories.map((category, categoryIndex) => (
               <Card
                 key={categoryIndex}
-                className={`p-6 bg-card/50 backdrop-blur border-border hover:border-primary/40 transition-all duration-500 ${
-                  isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-                }`}
+                className={`p-6 bg-card/50 backdrop-blur border-border hover:border-primary/40 transition-all duration-500 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                  }`}
                 style={{ transitionDelay: `${categoryIndex * 100}ms` }}
               >
                 <h3 className="font-bold text-lg mb-4 text-primary font-mono">{category.title}</h3>

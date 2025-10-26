@@ -29,45 +29,45 @@ export default function Certifications() {
 
   const certifications = [
     {
-      title: "UiPath Advanced RPA Developer",
+      title: "Master's in Artificial Intelligence",
+      issuer: "ITMO AI Talent Hub",
+      date: "In Progress",
+      credentialId: "Master's Program",
+      url: "#",
+    },
+    {
+      title: "LLM Engineer Certification",
+      issuer: "Additional Education",
+      date: "In Progress",
+      credentialId: "LLM Engineering",
+      url: "#",
+    },
+    {
+      title: "MLOps: Managing ML Project Lifecycle",
+      issuer: "AI Talent Hub / ITMO",
+      date: "08/2025 (in progress)",
+      credentialId: "In Progress",
+      url: "#",
+    },
+    {
+      title: "UiPath Document Understanding",
       issuer: "UiPath",
-      date: "2023",
-      credentialId: "UC-XXXXXXXX",
+      date: "09/2020",
+      credentialId: "UiPath Certified",
       url: "#",
     },
     {
-      title: "AWS Certified Solutions Architect",
-      issuer: "Amazon Web Services",
-      date: "2023",
-      credentialId: "AWS-XXXXXXXX",
+      title: "ABBYY FlexiCapture Certified Specialist",
+      issuer: "ABBYY",
+      date: "03/2019",
+      credentialId: "ABBYY Certified",
       url: "#",
     },
     {
-      title: "TensorFlow Developer Certificate",
-      issuer: "Google",
-      date: "2024",
-      credentialId: "TF-XXXXXXXX",
-      url: "#",
-    },
-    {
-      title: "Python for Data Science",
-      issuer: "IBM",
-      date: "2022",
-      credentialId: "IBM-XXXXXXXX",
-      url: "#",
-    },
-    {
-      title: "Machine Learning Specialization",
-      issuer: "Stanford University",
-      date: "2024",
-      credentialId: "STAN-XXXXXXXX",
-      url: "#",
-    },
-    {
-      title: "Professional Scrum Master I",
-      issuer: "Scrum.org",
-      date: "2022",
-      credentialId: "PSM-XXXXXXXX",
+      title: "Agile Thinking & Scrum/Kanban",
+      issuer: "Certification Provider",
+      date: "03/2020",
+      credentialId: "Agile Certified",
       url: "#",
     },
   ]
@@ -90,9 +90,8 @@ export default function Certifications() {
             {certifications.map((cert, index) => (
               <Card
                 key={index}
-                className={`p-6 bg-card/50 backdrop-blur border-border hover:border-primary/40 transition-all duration-500 hover:scale-105 ${
-                  isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-                }`}
+                className={`p-6 bg-card/50 backdrop-blur border-border hover:border-primary/40 transition-all duration-500 hover:scale-105 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                  }`}
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
                 <div className="flex items-start justify-between mb-4">

@@ -8,10 +8,10 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Python Developer | RPA & ML/AI Specialist",
+  title: "Anatoliy Bannikov | AI/RPA Lead Engineer",
   description:
-    "Portfolio and CV of a Python developer specializing in RPA automation and transitioning to ML/AI development",
-  generator: "v0.app",
+    "AI/RPA Lead Engineer at Zentist with 7+ years of experience in intelligent automation. Currently pursuing Master's in AI at ITMO and LLM Engineer certification. Leading 100+ RPA bots processing millions of documents. Specializing in Python, UiPath, LangChain, and Playwright.",
+  generator: "Next.js",
 }
 
 export default function RootLayout({
