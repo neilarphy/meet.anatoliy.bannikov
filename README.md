@@ -15,7 +15,7 @@ A stunning animated portfolio/CV website for Anatoliy Bannikov, AI/RPA Lead Engi
 
 AI/RPA Lead Engineer with 7+ years of experience in intelligent automation. Currently leading RPA department at Zentist (USA), managing 100+ RPA bots processing tens of thousands of insurance documents daily. Specializes in Python, UiPath, LangChain, Playwright, and custom RPA frameworks. Has processed over 8 million files in production automation.
 
-Currently pursuing a Master's degree in Artificial Intelligence at ITMO AI Talent Hub and additional education as an LLM Engineer to further enhance expertise in AI and large language models.
+Holds a Bachelor's degree in Robotics and Mechatronics from Nazarbayev University. Currently pursuing a Master's degree in Artificial Intelligence at ITMO AI Talent Hub and additional education as an LLM Engineer to further enhance expertise in AI and large language models.
 
 ## Local Development
 

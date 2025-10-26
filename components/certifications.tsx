@@ -45,8 +45,8 @@ export default function Certifications() {
     {
       title: "MLOps: Managing ML Project Lifecycle",
       issuer: "AI Talent Hub / ITMO",
-      date: "08/2025 (in progress)",
-      credentialId: "In Progress",
+      date: "08/2025",
+      credentialId: "Completed",
       url: "#",
     },
     {
@@ -68,6 +68,13 @@ export default function Certifications() {
       issuer: "Certification Provider",
       date: "03/2020",
       credentialId: "Agile Certified",
+      url: "#",
+    },
+    {
+      title: "Bachelor of Science in Robotics and Mechatronics",
+      issuer: "Nazarbayev University",
+      date: "01/2016",
+      credentialId: "BS Degree",
       url: "#",
     },
   ]

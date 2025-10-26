@@ -73,7 +73,7 @@ export default function About() {
                 I initiated and built a custom <span className="text-primary font-semibold">Python RPA framework</span> with Playwright as an alternative to vendor solutions. I developed a FastAPI + PostgreSQL + Vue/Quasar web service for centralized bot management and am currently expanding into <span className="text-primary font-semibold">AI/agentic RPA</span> using LangChain and BrowserUse for complex browser automation scenarios.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Currently pursuing a <span className="text-primary font-semibold">Master's degree in Artificial Intelligence</span> at ITMO AI Talent Hub and additional education as an <span className="text-primary font-semibold">LLM Engineer</span> to further deepen my expertise in AI and large language models.
+                Currently pursuing a <span className="text-primary font-semibold">Master's degree in Artificial Intelligence</span> at ITMO AI Talent Hub and additional education as an <span className="text-primary font-semibold">LLM Engineer</span> to further deepen my expertise in AI and large language models. I hold a <span className="text-primary font-semibold">Bachelor's degree in Robotics and Mechatronics</span> from Nazarbayev University.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Over the past 3 years, my team has automatically processed more than <span className="text-primary font-semibold">8 million files</span>, reducing manual effort and improving efficiency across the organization.
