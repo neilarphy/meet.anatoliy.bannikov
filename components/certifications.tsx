@@ -46,7 +46,7 @@ export default function Certifications() {
       title: "MLOps: Managing ML Project Lifecycle",
       issuer: "AI Talent Hub / ITMO",
       date: "08/2025",
-      credentialId: "Completed",
+      credentialId: "MLOps",
       url: "#",
     },
     {
@@ -65,7 +65,7 @@ export default function Certifications() {
     },
     {
       title: "Agile Thinking & Scrum/Kanban",
-      issuer: "Certification Provider",
+      issuer: "Agile bootcamp",
       date: "03/2020",
       credentialId: "Agile Certified",
       url: "#",
