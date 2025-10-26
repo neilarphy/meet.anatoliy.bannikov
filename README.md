@@ -24,8 +24,8 @@ npm run dev
 npm run build
 \`\`\`
 
-## Deployment to GitHub Pages
-
+## Deployment to GitHub Pagessd
+ 
 1. **Update Repository Name**: 
    - Open `next.config.mjs`
    - Replace `'your-repo-name'` in the `basePath` with your actual GitHub repository name
